@@ -1,0 +1,8 @@
+1. clone project
+2. go to root directory
+3. run 'composer install'
+4. run 'copy .env.example .env'
+5. change database name in .env
+6. run 'php artisan key:generate'
+7. run 'php artisan migrate'
+8. run 'php artisan serve'
